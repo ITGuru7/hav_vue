@@ -1,0 +1,470 @@
+/*******variables for kk***********/
+$main-color = #0d2232
+$secondary-color = #132f45
+$gray-light = #e6e6e6
+$default-btn = #33c1b3
+$gray-txt = #808099
+$gray-input = #9ea7ad
+/***********bg-classes*******/
+.btn-op
+  opacity 0.6
+.input-gray
+  background-color $gray-input !important
+.gray-light
+  color $gray-light !important
+.gray-txt
+  color $gray-txt !important
+.gr-text
+  color $default-btn !important
+.kkblue
+  color $main-color !important
+.bg
+  &-trans
+    background-color transparent!important
+  &-white
+    background-color white !important
+    color $main-color
+  &-primaryColor
+    background-color $main-color !important
+    color $gray-light !important
+  &-secondary
+    background-color $secondary-color !important
+    color white
+  &-kk-btn
+    background-color $default-btn !important
+    color white !important
+    &.trans
+      background-color transparent !important
+      border 1px solid $default-btn !important
+      color $default-btn !important
+  &-gray
+    background-color $gray-light !important
+    &.gray-txt
+      color $gray-txt
+    &.primary-txt
+      color $main-color
+.nav-logo
+  height auto !important
+  width 85% !important
+  border-radius 10px
+  &.fullWt
+    width 100% !important
+.profile-compare
+  width 100px
+  height 100px
+.action-text
+  cursor pointer
+.table-header
+  table
+    thead
+      background-color $secondary-color
+      tr
+        th
+          color white !important
+          text-transform capitalize
+          font-size 1.1rem
+.kk-textarea
+  &.input-group--multi-line
+    .input-group__input
+      background-color $secondary-color!important
+      textarea
+        color white !important
+.divider
+  &.white-bg
+    background-color white !important
+  &.dark-bg
+    background-color #0d2232 !important
+main
+  &.t-height
+    margin-top 96px !important
+.pr-7
+  padding-right 70px !important
+.pl-40
+  padding-left 40px !important
+.pa-24
+  padding 24px !important
+
+.top-70
+  top:  70px !important
+/*******discription**/
+.list__tile__title
+  height auto
+.noti-icon
+  margin-left -11px
+  margin-top -15px
+  background-color #33c1b3
+  border-radius 50px
+  min-height 10px
+  min-width 10px
+small
+  &.light
+    color $gray-light !important
+  &.dark
+    color $main-color !important
+  &.r-0
+    right 0
+.dis
+  color $gray-txt
+  margin 0 5px
+.po-a
+  position absolute!important
+.po-f
+  position fixed !important
+.po-r
+  position relative!important
+.dialog
+  &.large
+    width: 75%;
+.compare-table
+  table
+    thead
+      tr
+        background-color $main-color
+        th
+          color white !important
+    td
+      img
+        max-width 100px
+        height 100px
+.res-img
+  width 100%
+  height auto
+.mobile-res-logo
+  width 196px
+  height auto
+.list-none
+  list-style none
+.w-100
+  width 100px
+.stop-click
+  pointer-events: none;
+.application--light
+  .input-group:not(.input-group--error)
+    .input-group__details
+    &:before
+      background none !important
+.input-group
+  padding: 12px 15px;
+  background $main-color
+  padding 5px 15px
+  border-radius 5px
+  &.blue-trans
+    background #d0d0d080
+    padding 15px
+    font-weight bold
+  &.white-bg
+    background-color white !important
+    border 2px solid gray
+
+    .input-group__input
+      input
+        color $main-color !important
+
+  .input-group__input
+    .input-group__append-icon, .input-group__prepend-icon
+      color white !important
+    .input-group__selections
+      .input-group__selections__comma
+        color white!important
+  &.input-group--disabled
+    cursor not-allowed
+    pointer-events none
+    background-color #e6e6e6 !important
+  &.small
+    padding 10px 15px
+    width 75%
+  &.checkbox
+    background-color transparent!important
+//.input-group--selection-controls
+//  &.blu-check
+//    color $main-color !important
+.input-group--selection-controls:not(.input-group--active) .input-group__input, .input-group--multiple
+  color $main-color !important
+/******************/
+.menu__content
+  margin-top -100px !important
+  z-index auto !important
+  &.menu__content--select
+    z-index 6 !important
+
+.input-group__details
+  min-height auto!important
+  &:after
+    background-color transparent
+.input-group__details
+  &:before
+    background-color transparent!important
+.breakWord
+  overflow-wrap break-word
+.card
+  &.login-card
+    min-width: 275px;
+    margin-left: -20px;
+    .list__tile
+      padding 0
+  &.noti-card
+    z-index 99
+    left 470px
+    max-height 300px
+    min-width 350px
+    overflow-y scroll
+    overflow-x hidden
+    &.admin-menu
+      left 560px !important
+    ul
+      max-width 350px
+
+.input-group--select.input-group--disabled, .input-group__input--disabled
+  cursor not-allowed
+  pointer-events none
+  background-color #e6e6e6 !important
+&::-webkit-input-placeholder
+  color white !important
+&:-moz-placeholder  /* Firefox 18- */
+  color white !important
+&::-moz-placeholder  /* Firefox 19+ */
+  color white !important
+&:-ms-input-placeholder
+  color white !important
+.application--light .input-group.input-group--disabled .input-group__details:before
+  background-color transparent
+  background-image none
+
+.footer-icon
+  width 200px
+
+.subheader
+  height 30px
+nav
+  &.toolbar
+    .toolbar__content
+      background-color $main-color
+      padding 10px 15px
+      border-radius 5px
+      height 44px
+      width 100%
+.toolbar--floating
+  width 100%
+  margin 0
+  border-radius 5px
+.application--light
+  .input-group
+    input
+      color white
+
+.navigation-drawer--persistent
+  &.navigation-drawer--clipped
+    margin-top 93px
+.input-group
+  &.input-group--selection-controls
+    label
+      left 40px
+      font-size 14px
+      color $main-color !important
+.input-group--text-field
+  &.border-white
+    border 2px solid white
+  &.border-blue
+    border 2px solid $main-color
+
+.application .theme--dark
+  &.table
+    th
+      background-color #808080
+      font-size 18px
+      color white
+    tbody
+      background-color $main-color
+.bg-secondary
+  ul
+    li
+      .list__tile
+        color white !important
+
+.input-group
+  &.trans
+    background transparent !important
+
+.point
+  cursor pointer !important
+.capitalize
+  text-transform uppercase !important
+/*************media*****************/
+@media only screen and (max-width: 599px)
+  main.t-height
+    margin-top 0 !important
+  .navigation-drawer--persistent
+    &.navigation-drawer--clipped
+      margin-top 0!important
+  .noti-card
+    width 100%!important
+    top 45px!important
+    left 0!important
+
+  .nav-logo
+    width 90px !important
+    border-radius 10px
+  .small-header
+    padding 0 !important
+  .hidden-xs-only
+    display none !important
+@media only screen and (min-width: 600px) and (max-width: 959px)
+  .navigation-drawer--persistent
+  &.navigation-drawer--clipped
+    margin-top 0!important
+  .nav-logo
+    width 90px !important
+    border-radius 10px
+    &.fullWt
+      width 100% !important
+  .small-header
+    padding 0 !important
+  .hidden-sm-only
+    display none !important
+@media only screen and (max-width: 959px)
+  .hidden-sm-and-down {
+    display: none !important;
+  }
+@media only screen and (min-width: 600px)
+  .hidden-sm-and-up
+    display none !important
+@media only screen and (min-width: 960px) and (max-width: 1263px)
+  .noti-card
+    left 650px !important
+  .nav-logo
+    width 175px !important
+  .hidden-md-only
+    display none !important
+@media only screen and (max-width: 1263px)
+  .hidden-md-and-down
+    display none !important
+@media only screen and (min-width: 960px)
+  .hidden-md-and-up
+    display: none !important
+@media only screen and (min-width: 1264px) and (max-width: 1903px)
+  .hidden-lg-only
+    display none !important
+@media only screen and (max-width: 1903px)
+  .hidden-lg-and-down
+    display none !important
+@media only screen and (min-width: 1264px)
+  .container
+    max-width 12 12px !important
+  .hidden-lg-and-up
+    display none !important
+@media only screen and (min-width: 1904px)
+  .hidden-xl-only
+    display none !important
+/*************************/
+.tooltip {
+  display: block !important;
+  z-index: 1 !important;
+
+  .tooltip-inner {
+    background: black;
+    color: white;
+    border-radius: 16px;
+    padding: 5px 10px 4px;
+  }
+
+  .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 5px;
+    border-color: black;
+  }
+
+  &[x-placement^="top"] {
+    margin-bottom: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 5px 0 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      bottom: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &[x-placement^="bottom"] {
+    margin-top: 5px;
+
+    .tooltip-arrow {
+      border-width: 0 5px 5px 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-top-color: transparent !important;
+      top: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &[x-placement^="right"] {
+    margin-left: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 5px 5px 0;
+      border-left-color: transparent !important;
+      border-top-color: transparent !important;
+      border-bottom-color: transparent !important;
+      left: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &[x-placement^="left"] {
+    margin-right: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 0 5px 5px;
+      border-top-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      right: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &[aria-hidden='true'] {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .15s, visibility .15s;
+  }
+
+  &[aria-hidden='false'] {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .15s;
+  }
+}
+//  toooltip
+.tooltip
+  position relative
+  display inline-block
+  border-bottom 1px dotted black
+  .tooltiptext
+    visibility hidden
+    width 150px
+    background-color black
+    color #fff
+    text-align left
+    padding 5px 5px
+    border-radius 6px
+    position absolute
+    line-height 15px
+    z-index 1
+
+  &:hover
+    .tooltiptext
+      visibility visible
